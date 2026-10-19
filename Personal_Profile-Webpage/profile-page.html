@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fatema-Jui Personal-Profile</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Fatema-Jui</h1>
+        <nav>
+            <ul>
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#media">Media</a></li>
+                <li><a href="#register">Register</a></li>
+                <li><a href="#more">More</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <section id="hero">
+            <p class="hero-small">WELCOME TO MY PROFILE</p>
+            <h2>Hi, I'm <span><i>Fatema Jui</i></span></h2>
+            <p class="hero-text">
+                I am <strong>Fatema-Jui</strong>, a passionate individual with interests in <b>web development, design, and technology</b>.
+                I enjoy creating user-friendly websites and applications that provide value to users.
+                In my free time, I like to explore <u>new programming languages and frameworks</u> to enhance my skills.
+                Currently, I am learning full-stack web development on the <mark>ostad platform</mark>.
+                I enjoy building useful things on the web and learning something new every day.
+            </p>
+        </section>
+        
+        <div class="two-col">
+
+            <section id="education" class="card">
+                <h2>Education</h2>
+                <table>
+                    <tr>
+                        <th>Degree</th>
+                        <th>Level</th>
+                        <th>Year</th>
+                    </tr>
+                    <tr>
+                        <td>SSC</td>
+                        <td>Secondary School Certificate</td>
+                        <td>2018</td>
+                    </tr>
+                    <tr>
+                        <td>HSC</td>
+                        <td>Higher Secondary Certificate</td>
+                        <td>2020</td>
+                    </tr>
+                    <tr>
+                        <td>BSc</td>
+                        <td>Bachelor of Science</td>
+                        <td>2026</td>
+                    </tr>
+                </table>
+            </section>
+
+            <section id="media" class="card">
+                <h2>Media</h2>
+                <div class="media-row">
+                    <div class="media-item">
+                        <h3>Image</h3>
+                        <img src="image/profile.jpg" alt="profile-image">
+                    </div>
+
+                    <div class="media-item">
+                        <h3>Intro Video</h3>
+                        <video controls>
+                            <source src="media/animation.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <div class="two-col">
+            <section id="register" class="card">
+                <h2>Register</h2>
+                <form action="#" method="post">
+
+                    <div class="field">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                    </div>
+
+                    <div class="field">
+                        <label for="age">Age:</label>
+                        <input type="number" id="age" name="age" placeholder="Enter your age" min="1" max="120" required>
+                    </div>
+
+                    <div class="field">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                    </div>
+
+                    <div class="field">
+                        <label for="password">Password:</label>
+                        <input type="password" id="password" name="password" placeholder="Enter your password" required>
+                    </div>
+
+                    <div class="field">
+                        <p class="label-text">Gender:</p>
+                        <div class="options">
+                            <input type="radio" id="male" name="gender" value="male" required>
+                            <label for="male">Male</label>
+
+                            <input type="radio" id="female" name="gender" value="female" required>
+                            <label for="female">Female</label>
+
+                            <input type="radio" id="other" name="gender" value="other" required>
+                            <label for="other">Other</label>
+                        </div>
+                    </div>
+
+                    <div class="field">
+                        <p class="label-text">Hobbies:</p>
+                        <div class="options">
+                            <input type="checkbox" id="reading" name="hobbies" value="reading">
+                            <label for="reading">Reading</label>
+
+                            <input type="checkbox" id="swimming" name="hobbies" value="swimming">
+                            <label for="swimming">Swimming</label>
+
+                            <input type="checkbox" id="dancing" name="hobbies" value="dancing">
+                            <label for="dancing">Dancing</label>
+                        </div>
+                    </div>
+
+                    <button type="submit">Register</button>
+                </form>
+            </section>
+
+            <section id="more" class="card">
+                <h2>More About Me</h2>
+                <details>
+                    <summary>My Goals</summary>
+                    <p>I want to become a full-stack web developer and build useful websites.</p>
+                </details>
+
+                <details>
+                    <summary>My Hobbies</summary>
+                    <p>Reading, Swimming, Dancing</p>
+                </details>
+
+                <button type="button" class="btn" onclick="alert('Thank you for visiting my profile!')">Click Me</button>
+            </section>
+
+        </div>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Fatema-Jui. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>

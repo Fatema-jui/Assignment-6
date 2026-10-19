@@ -1,0 +1,200 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #F4F8FF;
+    color: #052C65;
+}
+
+
+header {
+    background-color: #ffffff;
+    padding: 6px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    color: #0D6EFD;
+    margin: 0;
+    font-size: 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    display: inline;
+    margin-left: 16px;
+}
+
+nav a {
+    color: #0A58CA;
+    text-decoration: none;
+}
+
+
+#hero {
+    background-color: #E7F1FF;
+    text-align: center;
+    padding: 30px;
+}
+
+#hero h2 {
+    font-size: 36px;
+}
+
+#hero h2 span {
+    color: #0D6EFD;
+}
+
+.hero-small {
+    color: #3D8BFD;
+}
+
+
+.card {
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(13, 110, 253, 0.15);
+}
+
+.card h2 {
+    color: #0A58CA;
+    margin-top: 0;
+}
+
+
+.two-col {
+    width: 90%;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.two-col .card {
+    width: 49%;
+}
+
+#more {
+    align-self: flex-start;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    background-color: #0D6EFD;
+    color: #ffffff;
+    padding: 8px;
+    text-align: left;
+}
+
+td {
+    padding: 8px;
+    border-bottom: 1px solid #E7F1FF;
+}
+
+
+img {
+    max-width: 100%;
+    border-radius: 10px;
+    display: block;
+}
+
+video {
+    width: 100%;
+    border-radius: 10px;
+    display: block;
+}
+
+#media h2 {
+    margin-bottom: 12px;
+}
+
+#media .media-row {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+#media .media-item {
+    width: 50%;
+}
+
+#media .media-item h3 {
+    margin: 0 0 8px 0;
+}
+
+#media img,
+#media video {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.field {
+    margin-bottom: 4px;
+}
+
+.field > label {
+    display: inline-block;
+    width: 70px;
+}
+
+.field > input {
+    width: 250px;
+    padding: 6px;
+}
+
+.options label {
+    margin-right: 10px;
+}
+
+
+button {
+    background-color: #0D6EFD;
+    color: #ffffff;
+    border: none;
+    padding: 8px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+details {
+    border: 1px solid #B6D4FE;
+    border-radius: 8px;
+    padding: 8px;
+    margin-bottom: 8px;
+}
+
+summary {
+    font-weight: bold;
+    color: #0A58CA;
+    cursor: pointer;
+}
+
+details p {
+    margin: 4px 0 0;
+}
+
+footer {
+    background-color: #052C65;
+    color: #9EC5FE;
+    text-align: center;
+    padding: 14px;
+}
+
+footer p {
+    margin: 0;
+}
